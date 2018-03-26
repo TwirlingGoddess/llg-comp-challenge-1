@@ -157,8 +157,8 @@ main {
   z-index: 2;
 }
 /*-------------------MEDIA QUERIES-----------------*/
-
-/*@media screen 
+/*-------------------------------------------1*/
+@media screen 
 and (max-width: 1090px) 
 and (min-width: 600px) {
 
@@ -192,7 +192,7 @@ article img {
   height: 22%;
 }
 
-}.another-one {
+.another-one {
   grid-column: 3 / 4;
   grid-row: 4 / 8;
 }
@@ -226,42 +226,129 @@ article img {
   grid-column: 3 / 4;
   grid-row: 12 / 16;
 }
+
 main {
   grid-column: 1 / 4;
   grid-row: 1 / 4;
   background-image: url("images/fashion1.jpg");
 }
-}*/
 
-/*@media screen 
+.left-arrow, .right-arrow, .nav-bar {
+  z-index: -15;
+}
+}
+/*--------------------------------------2*/
+
+@media screen 
 and (max-width: 600px) 
 and (min-width: 500px) {
 
+body {
+  grid-template-columns: repeat(3, 33.333333%);
+  grid-template-rows: repeat(15, 6.666666%);
+  justify-content: start;
+}
+
 section {
+  grid-column: 1 / 3;
+  grid-row: 4 / 8;
   padding-top: .5rem;
 }
 
 h1 {
-  margin: 0;
-  font-size: large;
+  margin: .25rem 0;
+  font-size: x-large;
 }
 
-p{
-  line-height: .25rem;
+p {
+  line-height: .975rem;
 }
-}*/
-/*
+
+button {
+  margin-right: .5rem;
+  padding: .5rem;
+}
+
+article img {
+  margin-top: 2.5rem;
+  width: 21%
+  height: 22%;
+}
+
+.another-one {
+  grid-column: 3 / 4;
+  grid-row: 4 / 8;
+}
+
+.another-two {
+  grid-column: 1 / 2;
+  grid-row: 8 / 12;
+}
+
+.another-three {
+  grid-column: 2 / 3;
+  grid-row: 8 / 12;
+}
+
+.another-four {
+  grid-column: 3 / 4;
+  grid-row: 8 / 12;
+}
+
+.another-five {
+  grid-column: 1 / 2;
+  grid-row: 12 / 16;
+}
+
+.another-six {
+  grid-column: 2 / 3;
+  grid-row: 12 / 16;
+}
+
+.another-seven {
+  grid-column: 3 / 4;
+  grid-row: 12 / 16;
+}
+
+main {
+  grid-column: 1 / 4;
+  grid-row: 1 / 4;
+  background-image: url("images/fashion1.jpg");
+  background-size: cover;
+}
+
+.left-arrow, .right-arrow, .nav-bar {
+  z-index: -15;
+}
+}
+
+/*--------------------------------------------3*/
+
 @media only screen and (max-width: 500px) {
   
 body {
-  grid-template-columns: 1;
-  grid-template-rows: repeat(12, 8.33333%);
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: repeat(10, 35.33333%);
   justify-content: start;
 }
 
 section {
   grid-column: 1 / 2;
   grid-row: 1 / 2
+}
+
+h1 {
+  margin: .25rem 0;
+  font-size: xx-large;
+}
+
+p {
+  line-height: 1rem;
+}
+
+button {
+  margin: .35rem .35rem;
+  padding: .35rem;
 }
 
 .another-one {
@@ -286,22 +373,29 @@ section {
 
 .another-five {
   grid-column: 1 / 2;
-  grid-row: 7 / 8;
+  grid-row: 6 / 7;
 }
 
 .another-six {
   grid-column: 1 / 2;
-  grid-row: 8 / 9;
+  grid-row: 7 / 8;
 }
 
 .another-seven {
   grid-column: 1 / 2;
-  grid-row: 9 / 10;
+  grid-row: 8 / 9;
 }
 
 main {
   grid-column: 1 / 2;
-  grid-row: 10 / 13;
+  grid-row: 9 / 10;
   background-image: url("images/fashion2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
-}*/
+
+.left-arrow, .right-arrow, .nav-bar {
+  z-index: -15;
+}
+
+}
