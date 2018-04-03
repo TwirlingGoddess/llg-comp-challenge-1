@@ -6,11 +6,11 @@ The point of this project was to reproduce the layout of the original comp, but 
 
 Here is the original comp:
 
-![alt text](http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg)
+![ORIGINAL](http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg)
 
 Here is my version:
 
-![alt text](recents/Screen Shot 2018-03-27 at 1.37.26 PM.png)
+![MY MOCK UP](Screen Shot 2018-03-27 at 1.37.26 PM.png)
 
 I decided to do my version on RuPaul's Drag Race, featuring the portraits of some of my favorite contestants from the show.
 
