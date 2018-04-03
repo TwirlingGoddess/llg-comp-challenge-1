@@ -10,7 +10,7 @@ Here is the original comp:
 
 Here is my version:
 
-![MY MOCK UP](llg-comp-challenge-1/Screen Shot 2018-03-27 at 1.37.26 PM.png)
+![MY MOCK UP](https://github.com/TwirlingGoddess/llg-comp-challenge-1/blob/master/Screen%20Shot%202018-03-27%20at%201.37.26%20PM.png)
 
 I decided to do my version on RuPaul's Drag Race, featuring the portraits of some of my favorite contestants from the show.
 
