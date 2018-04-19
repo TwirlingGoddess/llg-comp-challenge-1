@@ -8,7 +8,7 @@ Here is the original comp:
 
 ![ORIGINAL](http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg)
 
-Here is my version:
+Here is the link to my version, shown below: (https://twirlinggoddess.github.io/llg-comp-challenge-1/)
 
 ![MY MOCK UP](https://github.com/TwirlingGoddess/llg-comp-challenge-1/blob/master/Screen%20Shot%202018-03-27%20at%201.37.26%20PM.png)
 
